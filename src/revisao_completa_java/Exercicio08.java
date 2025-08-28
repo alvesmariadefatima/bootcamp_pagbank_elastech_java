@@ -12,8 +12,7 @@ public class Exercicio08 {
 		
 		for(int i = 0; i < 5; i++) {
 			System.out.println("Digite o " + (i + 1) + "º nome: ");
-			String nome = sc.nextLine();
-			nomes.add(nome);
+			nomes.add(sc.next());
 		}
 		
 		System.out.println("\nLista de nomes digitados: ");
