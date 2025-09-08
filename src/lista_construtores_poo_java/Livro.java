@@ -4,8 +4,8 @@ public class Livro {
 	String titulo;
 	String autor;
 	
-	public Livro() {
-		this("Livro 1", "Desconhecido");
+	public Livro(String titulo) {
+		this(titulo, "Desconhecido");
 	}
 	
 	public Livro(String titulo, String autor) {

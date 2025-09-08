@@ -9,6 +9,11 @@ public class Produto {
 		this("Sem nome", 0.0, 0);
 	}
 	
+	public Produto(String nome) {
+		this.nome = nome;
+		this.preco = 0.0;
+	}
+	
 	public Produto(String nome, double preco, int quantidadeEstoque) {
 		this.nome = nome;
 		this.preco = preco;
