@@ -21,6 +21,7 @@ public class Pessoa {
 		System.out.println("Nome do(a) aluno(a): " + aluno.nome);
 		System.out.println("Matrícula: " + aluno.matricula);
 		System.out.println("Idade: " + aluno.idade);
+		
 		Pessoa pessoa = new Pessoa("Maria de Fátima", "41625344899", 24);
 		System.out.println("CPF: " + pessoa.getCpf());		
 	}
